@@ -1,4 +1,5 @@
-import 'package:comman_app/pages/partice.dart';
+import 'package:comman_app/leaning/5_image.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,13 +11,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-      return MaterialApp(
-        debugShowCheckedModeBanner: false,
-        home: Partice(),
-        theme: ThemeData(primaryColor: Colors.yellow),
-      );
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: ImageWidget(),
+      theme: ThemeData(primaryColor: Colors.yellow),
+    );
   }
-
-
-
 }
