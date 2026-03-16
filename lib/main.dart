@@ -1,4 +1,4 @@
-import 'package:comman_app/pages/coloum_row.dart';
+import 'package:comman_app/leaning/7_gesture_detector.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,13 +10,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-      return MaterialApp(
-        debugShowCheckedModeBanner: false,
-        home: ColoumRow(),
-        theme: ThemeData(primaryColor: Colors.yellow),
-      );
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: GestureDetector_(),
+      theme: ThemeData(primaryColor: Colors.yellow),
+    );
   }
-
-
-
 }
