@@ -1,5 +1,5 @@
-import 'package:comman_app/leaning/5_image.dart';
-
+import 'package:comman_app/leaning/8_animatedDart.dart';
+import 'package:comman_app/leaning/9_alert_dialog_box.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +13,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ImageWidget(),
+
+      home: AlertDialogBox(),
       theme: ThemeData(primaryColor: Colors.yellow),
     );
   }
