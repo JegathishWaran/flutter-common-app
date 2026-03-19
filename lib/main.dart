@@ -1,5 +1,4 @@
-import 'package:comman_app/leaning/8_animatedDart.dart';
-import 'package:comman_app/leaning/9_alert_dialog_box.dart';
+import 'package:comman_app/leaning/12_user_input.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
 
-      home: AlertDialogBox(),
+      home: UserInputs(),
       theme: ThemeData(primaryColor: Colors.yellow),
     );
   }
