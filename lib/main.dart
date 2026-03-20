@@ -1,4 +1,4 @@
-import 'package:comman_app/leaning/12_user_input.dart';
+import 'package:comman_app/leaning/15_date_picker.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
 
-      home: UserInputs(),
+      home: DatePickerDate(),
       theme: ThemeData(primaryColor: Colors.yellow),
     );
   }
