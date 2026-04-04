@@ -1,4 +1,4 @@
-import 'package:comman_app/leaning/15_date_picker.dart';
+import 'package:comman_app/leaning/Flutter%20Auth%20Tutorial/login_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,9 +11,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      
       debugShowCheckedModeBanner: false,
 
-      home: DatePickerDate(),
+      home: LoginPage(),
       theme: ThemeData(primaryColor: Colors.yellow),
     );
   }
